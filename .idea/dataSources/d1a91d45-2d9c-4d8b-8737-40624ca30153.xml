@@ -1,0 +1,3186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.7">
+    <root id="1">
+      <DefaultCasing>mixed/mixed</DefaultCasing>
+    </root>
+    <schema id="2" parent="1" name="ERPnjuDB">
+      <Current>1</Current>
+      <Visible>1</Visible>
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <schema id="3" parent="1" name="NEWERPDB">
+      <Visible>1</Visible>
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="4" parent="1" name="hibernateTest">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="5" parent="1" name="information_schema">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="6" parent="1" name="mysql">
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <schema id="7" parent="1" name="performance_schema">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="8" parent="1" name="samp_db">
+      <Collation>gbk_chinese_ci</Collation>
+    </schema>
+    <schema id="9" parent="1" name="sys">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <collation id="10" parent="1" name="armscii8_bin">
+      <Charset>armscii8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="11" parent="1" name="armscii8_general_ci">
+      <Charset>armscii8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="12" parent="1" name="ascii_bin">
+      <Charset>ascii</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="13" parent="1" name="ascii_general_ci">
+      <Charset>ascii</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="14" parent="1" name="big5_bin">
+      <Charset>big5</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="15" parent="1" name="big5_chinese_ci">
+      <Charset>big5</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="16" parent="1" name="binary">
+      <Charset>binary</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="17" parent="1" name="cp1250_bin">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="18" parent="1" name="cp1250_croatian_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="19" parent="1" name="cp1250_czech_cs">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="20" parent="1" name="cp1250_general_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="21" parent="1" name="cp1250_polish_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="22" parent="1" name="cp1251_bin">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="23" parent="1" name="cp1251_bulgarian_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="24" parent="1" name="cp1251_general_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="25" parent="1" name="cp1251_general_cs">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="26" parent="1" name="cp1251_ukrainian_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="27" parent="1" name="cp1256_bin">
+      <Charset>cp1256</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="28" parent="1" name="cp1256_general_ci">
+      <Charset>cp1256</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="29" parent="1" name="cp1257_bin">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="30" parent="1" name="cp1257_general_ci">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="31" parent="1" name="cp1257_lithuanian_ci">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="32" parent="1" name="cp850_bin">
+      <Charset>cp850</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="33" parent="1" name="cp850_general_ci">
+      <Charset>cp850</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="34" parent="1" name="cp852_bin">
+      <Charset>cp852</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="35" parent="1" name="cp852_general_ci">
+      <Charset>cp852</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="36" parent="1" name="cp866_bin">
+      <Charset>cp866</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="37" parent="1" name="cp866_general_ci">
+      <Charset>cp866</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="38" parent="1" name="cp932_bin">
+      <Charset>cp932</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="39" parent="1" name="cp932_japanese_ci">
+      <Charset>cp932</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="40" parent="1" name="dec8_bin">
+      <Charset>dec8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="41" parent="1" name="dec8_swedish_ci">
+      <Charset>dec8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="42" parent="1" name="eucjpms_bin">
+      <Charset>eucjpms</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="43" parent="1" name="eucjpms_japanese_ci">
+      <Charset>eucjpms</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="44" parent="1" name="euckr_bin">
+      <Charset>euckr</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="45" parent="1" name="euckr_korean_ci">
+      <Charset>euckr</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="46" parent="1" name="gb18030_bin">
+      <Charset>gb18030</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="47" parent="1" name="gb18030_chinese_ci">
+      <Charset>gb18030</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="48" parent="1" name="gb18030_unicode_520_ci">
+      <Charset>gb18030</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="49" parent="1" name="gb2312_bin">
+      <Charset>gb2312</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="50" parent="1" name="gb2312_chinese_ci">
+      <Charset>gb2312</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="51" parent="1" name="gbk_bin">
+      <Charset>gbk</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="52" parent="1" name="gbk_chinese_ci">
+      <Charset>gbk</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="53" parent="1" name="geostd8_bin">
+      <Charset>geostd8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="54" parent="1" name="geostd8_general_ci">
+      <Charset>geostd8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="55" parent="1" name="greek_bin">
+      <Charset>greek</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="56" parent="1" name="greek_general_ci">
+      <Charset>greek</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="57" parent="1" name="hebrew_bin">
+      <Charset>hebrew</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="58" parent="1" name="hebrew_general_ci">
+      <Charset>hebrew</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="59" parent="1" name="hp8_bin">
+      <Charset>hp8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="60" parent="1" name="hp8_english_ci">
+      <Charset>hp8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="61" parent="1" name="keybcs2_bin">
+      <Charset>keybcs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="62" parent="1" name="keybcs2_general_ci">
+      <Charset>keybcs2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="63" parent="1" name="koi8r_bin">
+      <Charset>koi8r</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="64" parent="1" name="koi8r_general_ci">
+      <Charset>koi8r</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="65" parent="1" name="koi8u_bin">
+      <Charset>koi8u</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="66" parent="1" name="koi8u_general_ci">
+      <Charset>koi8u</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="67" parent="1" name="latin1_bin">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="68" parent="1" name="latin1_danish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="69" parent="1" name="latin1_general_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="70" parent="1" name="latin1_general_cs">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="71" parent="1" name="latin1_german1_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="72" parent="1" name="latin1_german2_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="73" parent="1" name="latin1_spanish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="74" parent="1" name="latin1_swedish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="75" parent="1" name="latin2_bin">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="76" parent="1" name="latin2_croatian_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="77" parent="1" name="latin2_czech_cs">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="78" parent="1" name="latin2_general_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="79" parent="1" name="latin2_hungarian_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="80" parent="1" name="latin5_bin">
+      <Charset>latin5</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="81" parent="1" name="latin5_turkish_ci">
+      <Charset>latin5</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="82" parent="1" name="latin7_bin">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="83" parent="1" name="latin7_estonian_cs">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="84" parent="1" name="latin7_general_ci">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="85" parent="1" name="latin7_general_cs">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="86" parent="1" name="macce_bin">
+      <Charset>macce</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="87" parent="1" name="macce_general_ci">
+      <Charset>macce</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="88" parent="1" name="macroman_bin">
+      <Charset>macroman</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="89" parent="1" name="macroman_general_ci">
+      <Charset>macroman</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="90" parent="1" name="sjis_bin">
+      <Charset>sjis</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="91" parent="1" name="sjis_japanese_ci">
+      <Charset>sjis</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="92" parent="1" name="swe7_bin">
+      <Charset>swe7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="93" parent="1" name="swe7_swedish_ci">
+      <Charset>swe7</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="94" parent="1" name="tis620_bin">
+      <Charset>tis620</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="95" parent="1" name="tis620_thai_ci">
+      <Charset>tis620</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="96" parent="1" name="ucs2_bin">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="97" parent="1" name="ucs2_croatian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="98" parent="1" name="ucs2_czech_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="99" parent="1" name="ucs2_danish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="100" parent="1" name="ucs2_esperanto_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="101" parent="1" name="ucs2_estonian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="102" parent="1" name="ucs2_general_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="103" parent="1" name="ucs2_general_mysql500_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="104" parent="1" name="ucs2_german2_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="105" parent="1" name="ucs2_hungarian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="106" parent="1" name="ucs2_icelandic_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="107" parent="1" name="ucs2_latvian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="108" parent="1" name="ucs2_lithuanian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="109" parent="1" name="ucs2_persian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="110" parent="1" name="ucs2_polish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="111" parent="1" name="ucs2_roman_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="112" parent="1" name="ucs2_romanian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="113" parent="1" name="ucs2_sinhala_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="114" parent="1" name="ucs2_slovak_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="115" parent="1" name="ucs2_slovenian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="116" parent="1" name="ucs2_spanish2_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="117" parent="1" name="ucs2_spanish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="118" parent="1" name="ucs2_swedish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="119" parent="1" name="ucs2_turkish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="120" parent="1" name="ucs2_unicode_520_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="121" parent="1" name="ucs2_unicode_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="122" parent="1" name="ucs2_vietnamese_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="123" parent="1" name="ujis_bin">
+      <Charset>ujis</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="124" parent="1" name="ujis_japanese_ci">
+      <Charset>ujis</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="125" parent="1" name="utf16_bin">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="126" parent="1" name="utf16_croatian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="127" parent="1" name="utf16_czech_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="128" parent="1" name="utf16_danish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="129" parent="1" name="utf16_esperanto_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="130" parent="1" name="utf16_estonian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="131" parent="1" name="utf16_general_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="132" parent="1" name="utf16_german2_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="133" parent="1" name="utf16_hungarian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="134" parent="1" name="utf16_icelandic_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="135" parent="1" name="utf16_latvian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="136" parent="1" name="utf16_lithuanian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="137" parent="1" name="utf16_persian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="138" parent="1" name="utf16_polish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="139" parent="1" name="utf16_roman_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="140" parent="1" name="utf16_romanian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="141" parent="1" name="utf16_sinhala_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="142" parent="1" name="utf16_slovak_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="143" parent="1" name="utf16_slovenian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="144" parent="1" name="utf16_spanish2_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="145" parent="1" name="utf16_spanish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="146" parent="1" name="utf16_swedish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="147" parent="1" name="utf16_turkish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="148" parent="1" name="utf16_unicode_520_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="149" parent="1" name="utf16_unicode_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="150" parent="1" name="utf16_vietnamese_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="151" parent="1" name="utf16le_bin">
+      <Charset>utf16le</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="152" parent="1" name="utf16le_general_ci">
+      <Charset>utf16le</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="153" parent="1" name="utf32_bin">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="154" parent="1" name="utf32_croatian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="155" parent="1" name="utf32_czech_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="156" parent="1" name="utf32_danish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="157" parent="1" name="utf32_esperanto_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="158" parent="1" name="utf32_estonian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="159" parent="1" name="utf32_general_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="160" parent="1" name="utf32_german2_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="161" parent="1" name="utf32_hungarian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="162" parent="1" name="utf32_icelandic_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="163" parent="1" name="utf32_latvian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="164" parent="1" name="utf32_lithuanian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="165" parent="1" name="utf32_persian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="166" parent="1" name="utf32_polish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="167" parent="1" name="utf32_roman_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="168" parent="1" name="utf32_romanian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="169" parent="1" name="utf32_sinhala_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="170" parent="1" name="utf32_slovak_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="171" parent="1" name="utf32_slovenian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="172" parent="1" name="utf32_spanish2_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="173" parent="1" name="utf32_spanish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="174" parent="1" name="utf32_swedish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="175" parent="1" name="utf32_turkish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="176" parent="1" name="utf32_unicode_520_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="177" parent="1" name="utf32_unicode_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="178" parent="1" name="utf32_vietnamese_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="179" parent="1" name="utf8_bin">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="180" parent="1" name="utf8_croatian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="181" parent="1" name="utf8_czech_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="182" parent="1" name="utf8_danish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="183" parent="1" name="utf8_esperanto_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="184" parent="1" name="utf8_estonian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="185" parent="1" name="utf8_general_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="186" parent="1" name="utf8_general_mysql500_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="187" parent="1" name="utf8_german2_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="188" parent="1" name="utf8_hungarian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="189" parent="1" name="utf8_icelandic_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="190" parent="1" name="utf8_latvian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="191" parent="1" name="utf8_lithuanian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="192" parent="1" name="utf8_persian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="193" parent="1" name="utf8_polish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="194" parent="1" name="utf8_roman_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="195" parent="1" name="utf8_romanian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="196" parent="1" name="utf8_sinhala_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="197" parent="1" name="utf8_slovak_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="198" parent="1" name="utf8_slovenian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="199" parent="1" name="utf8_spanish2_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="200" parent="1" name="utf8_spanish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="201" parent="1" name="utf8_swedish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="202" parent="1" name="utf8_turkish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="203" parent="1" name="utf8_unicode_520_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="204" parent="1" name="utf8_unicode_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="205" parent="1" name="utf8_vietnamese_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="206" parent="1" name="utf8mb4_bin">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="207" parent="1" name="utf8mb4_croatian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="208" parent="1" name="utf8mb4_czech_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="209" parent="1" name="utf8mb4_danish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="210" parent="1" name="utf8mb4_esperanto_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="211" parent="1" name="utf8mb4_estonian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="212" parent="1" name="utf8mb4_general_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="213" parent="1" name="utf8mb4_german2_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="214" parent="1" name="utf8mb4_hungarian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="215" parent="1" name="utf8mb4_icelandic_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="216" parent="1" name="utf8mb4_latvian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="217" parent="1" name="utf8mb4_lithuanian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="218" parent="1" name="utf8mb4_persian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="219" parent="1" name="utf8mb4_polish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="220" parent="1" name="utf8mb4_roman_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="221" parent="1" name="utf8mb4_romanian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="222" parent="1" name="utf8mb4_sinhala_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="223" parent="1" name="utf8mb4_slovak_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="224" parent="1" name="utf8mb4_slovenian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="225" parent="1" name="utf8mb4_spanish2_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="226" parent="1" name="utf8mb4_spanish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="227" parent="1" name="utf8mb4_swedish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="228" parent="1" name="utf8mb4_turkish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="229" parent="1" name="utf8mb4_unicode_520_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="230" parent="1" name="utf8mb4_unicode_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="231" parent="1" name="utf8mb4_vietnamese_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <table id="232" parent="2" name="ACCOUNT">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="233" parent="2" name="ACCOUNTBOOK">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="234" parent="2" name="ACCOUNTMESSAGE">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="235" parent="2" name="ALARM">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="236" parent="2" name="ALARMFORMGOODS">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="237" parent="2" name="BUYGIFTSTRATEGY">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="238" parent="2" name="BUYGIFTSTRATEGYGOODS">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="239" parent="2" name="BUYRETURNSTRATEGY">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="240" parent="2" name="CASHFORM">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="241" parent="2" name="CASHLISTITEM">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="242" parent="2" name="CATEGORY">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="243" parent="2" name="CLIENT">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="244" parent="2" name="CLIENTMESSAGE">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="245" parent="2" name="FULLGIFTSTRATEGY">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="246" parent="2" name="FULLGIFTSTRATEGYGOODS">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="247" parent="2" name="FULLRETURNSTRATEGY">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="248" parent="2" name="GIFT">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="249" parent="2" name="GIFTGOODS">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="250" parent="2" name="GOODS">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="251" parent="2" name="GOODSMESSAGE">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="252" parent="2" name="LOG">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="253" parent="2" name="LOSS">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="254" parent="2" name="LOSSGOODS">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="255" parent="2" name="MESSAGE">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="256" parent="2" name="OVERFLOW">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="257" parent="2" name="OVERFLOWGOODS">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="258" parent="2" name="PAYCHECK">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="259" parent="2" name="PAYCHECKITEM">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="260" parent="2" name="PRICEPACKSTRATEGY">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="261" parent="2" name="PRICEPACKSTRATEGYGOODS">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="262" parent="2" name="PURCHASE">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="263" parent="2" name="PURCHASEGOODS">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="264" parent="2" name="PURRETURN">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="265" parent="2" name="PURRETURNGOODS">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="266" parent="2" name="RECEIPT">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="267" parent="2" name="RECEIPTITEM">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="268" parent="2" name="SALE">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="269" parent="2" name="SALEGOODS">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="270" parent="2" name="SALERETURN">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="271" parent="2" name="SALERETURNGOODS">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="272" parent="2" name="STRATEGY">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="273" parent="2" name="USER">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="274" parent="3" name="ACCOUNT">
+      <Engine>MyISAM</Engine>
+    </table>
+    <table id="275" parent="3" name="CATEGORY">
+      <Engine>MyISAM</Engine>
+    </table>
+    <table id="276" parent="3" name="CLIENT">
+      <Engine>MyISAM</Engine>
+    </table>
+    <table id="277" parent="3" name="GOODS">
+      <Engine>MyISAM</Engine>
+    </table>
+    <column id="278" parent="232" name="accountID">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="279" parent="232" name="amount">
+      <Position>2</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="280" parent="232" name="holder">
+      <Position>3</Position>
+      <DataType>char(15)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="281" parent="232" name="bank">
+      <Position>4</Position>
+      <DataType>char(15)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="282" parent="232" name="purpose">
+      <Position>5</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="283" parent="232" name="remarks">
+      <Position>6</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="284" parent="232" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>accountID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="285" parent="233" name="name">
+      <Position>1</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="286" parent="233" name="accountBookID">
+      <Position>2</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="287" parent="233" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>accountBookID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="288" parent="234" name="accountID">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="289" parent="234" name="accountName">
+      <Position>2</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="290" parent="234" name="amount">
+      <Position>3</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="291" parent="234" name="accountbookID">
+      <Position>4</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="292" parent="234" name="ACCOUNTMESSAGE_ACCOUNTBOOK_accountBookID_fk">
+      <ColNames>accountbookID</ColNames>
+    </index>
+    <key id="293" parent="234" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>accountID
+accountbookID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="294" parent="234" name="ACCOUNTMESSAGE_ACCOUNT_accountID_fk">
+      <ColNames>accountID</ColNames>
+      <RefSchemaName>erpnjudb</RefSchemaName>
+      <RefTableName>ACCOUNT</RefTableName>
+      <RefColNames>accountID</RefColNames>
+    </foreign-key>
+    <foreign-key id="295" parent="234" name="ACCOUNTMESSAGE_ACCOUNTBOOK_accountBookID_fk">
+      <ColNames>accountbookID</ColNames>
+      <RefSchemaName>erpnjudb</RefSchemaName>
+      <RefTableName>ACCOUNTBOOK</RefTableName>
+      <RefColNames>accountBookID</RefColNames>
+    </foreign-key>
+    <column id="296" parent="235" name="formID">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="297" parent="235" name="formType">
+      <Position>2</Position>
+      <DataType>enum(&apos;AlarmForm&apos;, &apos;OverflowForm&apos;, &apos;GiftForm&apos;, &apos;LossForm&apos;, &apos;SaleReturnForm&apos;, &apos;PurchaseForm&apos;, &apos;PurReturnForm&apos;, &apos;ReceiptForm&apos;, &apos;PaycheckForm&apos;, &apos;CashForm&apos;, &apos;SaleForm&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="298" parent="235" name="operatorID">
+      <Position>3</Position>
+      <DataType>char(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="299" parent="235" name="operatorName">
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="300" parent="235" name="remark">
+      <Position>5</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="301" parent="235" name="formState">
+      <Position>6</Position>
+      <DataType>enum(&apos;Draft&apos;, &apos;Pending&apos;, &apos;Pass&apos;, &apos;Fail&apos;, &apos;Hide&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="302" parent="235" name="date">
+      <Position>7</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="303" parent="235" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>formID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="304" parent="236" name="goodsID">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="305" parent="236" name="goodsName">
+      <Position>2</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="306" parent="236" name="goodsNum">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="307" parent="236" name="oldAlarmNum">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="308" parent="236" name="newAlarmNum">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="309" parent="236" name="formID">
+      <Position>6</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="310" parent="236" name="ALARMFORMGOODS_ALARM_formID_fk">
+      <ColNames>formID</ColNames>
+    </index>
+    <key id="311" parent="236" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>goodsID
+formID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="312" parent="236" name="ALARMFORMGOODS_GOODS_goodsID_fk">
+      <ColNames>goodsID</ColNames>
+      <RefSchemaName>erpnjudb</RefSchemaName>
+      <RefTableName>GOODS</RefTableName>
+      <RefColNames>goodsID</RefColNames>
+    </foreign-key>
+    <foreign-key id="313" parent="236" name="ALARMFORMGOODS_ALARM_formID_fk">
+      <ColNames>formID</ColNames>
+      <RefSchemaName>erpnjudb</RefSchemaName>
+      <RefTableName>ALARM</RefTableName>
+      <RefColNames>formID</RefColNames>
+    </foreign-key>
+    <column id="314" parent="237" name="strategy_id">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="315" parent="237" name="strategy_name">
+      <Position>2</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="316" parent="237" name="client_level">
+      <Position>3</Position>
+      <DataType>enum(&apos;C&apos;, &apos;B&apos;, &apos;A&apos;, &apos;S&apos;, &apos;VIP&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="317" parent="237" name="begin_date">
+      <Position>4</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="318" parent="237" name="end_date">
+      <Position>5</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="319" parent="237" name="strategyType">
+      <Position>6</Position>
+      <DataType>enum(&apos;Price_pack&apos;, &apos;Full_gift&apos;, &apos;Full_return&apos;, &apos;Buy_gift&apos;, &apos;Buy_return&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="320" parent="237" name="num">
+      <Position>7</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="321" parent="237" name="goodsID">
+      <Position>8</Position>
+      <DataType>char(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="322" parent="237" name="voucher">
+      <Position>9</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="323" parent="237" name="BUYGIFTSTRATEGY_GOODS_goodsID_fk">
+      <ColNames>goodsID</ColNames>
+    </index>
+    <key id="324" parent="237" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>strategy_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="325" parent="237" name="BUYGIFTSTRATEGY_GOODS_goodsID_fk">
+      <ColNames>goodsID</ColNames>
+      <RefSchemaName>erpnjudb</RefSchemaName>
+      <RefTableName>GOODS</RefTableName>
+      <RefColNames>goodsID</RefColNames>
+    </foreign-key>
+    <column id="326" parent="238" name="goodsID">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="327" parent="238" name="giftNum">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="328" parent="238" name="strategy_id">
+      <Position>3</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="329" parent="238" name="BUYGIFTSTRATEGRGOODS_BUYGIFTSTRATEGY_strategy_id_fk">
+      <ColNames>strategy_id</ColNames>
+    </index>
+    <key id="330" parent="238" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>goodsID
+strategy_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="331" parent="238" name="BUYGIFTSTRATEGYGOODS_GOODS_goodsID_fk">
+      <ColNames>goodsID</ColNames>
+      <RefSchemaName>erpnjudb</RefSchemaName>
+      <RefTableName>GOODS</RefTableName>
+      <RefColNames>goodsID</RefColNames>
+    </foreign-key>
+    <foreign-key id="332" parent="238" name="BUYGIFTSTRATEGRGOODS_BUYGIFTSTRATEGY_strategy_id_fk">
+      <ColNames>strategy_id</ColNames>
+      <RefSchemaName>erpnjudb</RefSchemaName>
+      <RefTableName>BUYGIFTSTRATEGY</RefTableName>
+      <RefColNames>strategy_id</RefColNames>
+    </foreign-key>
+    <column id="333" parent="239" name="strategy_id">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="334" parent="239" name="strategy_name">
+      <Position>2</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="335" parent="239" name="client_level">
+      <Position>3</Position>
+      <DataType>enum(&apos;C&apos;, &apos;B&apos;, &apos;A&apos;, &apos;S&apos;, &apos;VIP&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="336" parent="239" name="begin_date">
+      <Position>4</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="337" parent="239" name="end_date">
+      <Position>5</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="338" parent="239" name="strategyType">
+      <Position>6</Position>
+      <DataType>enum(&apos;Price_pack&apos;, &apos;Full_gift&apos;, &apos;Full_return&apos;, &apos;Buy_gift&apos;, &apos;Buy_return&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="339" parent="239" name="goodsID">
+      <Position>7</Position>
+      <DataType>char(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="340" parent="239" name="num">
+      <Position>8</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="341" parent="239" name="discount">
+      <Position>9</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="342" parent="239" name="BUYRETURNSTRATEGY_GOODS_goodsID_fk">
+      <ColNames>goodsID</ColNames>
+    </index>
+    <key id="343" parent="239" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>strategy_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="344" parent="239" name="BUYRETURNSTRATEGY_GOODS_goodsID_fk">
+      <ColNames>goodsID</ColNames>
+      <RefSchemaName>erpnjudb</RefSchemaName>
+      <RefTableName>GOODS</RefTableName>
+      <RefColNames>goodsID</RefColNames>
+    </foreign-key>
+    <column id="345" parent="240" name="formID">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="346" parent="240" name="formType">
+      <Position>2</Position>
+      <DataType>enum(&apos;AlarmForm&apos;, &apos;OverflowForm&apos;, &apos;GiftForm&apos;, &apos;LossForm&apos;, &apos;SaleReturnForm&apos;, &apos;PurchaseForm&apos;, &apos;PurReturnForm&apos;, &apos;ReceiptForm&apos;, &apos;PaycheckForm&apos;, &apos;CashForm&apos;, &apos;SaleForm&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="347" parent="240" name="operatorID">
+      <Position>3</Position>
+      <DataType>char(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="348" parent="240" name="operatorName">
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="349" parent="240" name="remark">
+      <Position>5</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="350" parent="240" name="formState">
+      <Position>6</Position>
+      <DataType>enum(&apos;Draft&apos;, &apos;Pending&apos;, &apos;Pass&apos;, &apos;Fail&apos;, &apos;Hide&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="351" parent="240" name="accountID">
+      <Position>7</Position>
+      <DataType>char(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="352" parent="240" name="totalAmount">
+      <Position>8</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="353" parent="240" name="date">
+      <Position>9</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="354" parent="240" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>formID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="355" parent="241" name="itemName">
+      <Position>1</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="356" parent="241" name="amount">
+      <Position>2</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="357" parent="241" name="remark">
+      <Position>3</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="358" parent="241" name="formID">
+      <Position>4</Position>
+      <DataType>char(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="359" parent="241" name="itemID">
+      <Position>5</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="360" parent="241" name="CASHLISTITEM_CASHFORM_formID_fk">
+      <ColNames>formID</ColNames>
+    </index>
+    <key id="361" parent="241" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>itemID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="362" parent="241" name="CASHLISTITEM_CASHFORM_formID_fk">
+      <ColNames>formID</ColNames>
+      <RefSchemaName>erpnjudb</RefSchemaName>
+      <RefTableName>CASHFORM</RefTableName>
+      <RefColNames>formID</RefColNames>
+    </foreign-key>
+    <column id="363" parent="242" name="categoryID">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="364" parent="242" name="categoryName">
+      <Position>2</Position>
+      <DataType>tinytext|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="365" parent="242" name="isLeaf">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="366" parent="242" name="fatherCategoryID">
+      <Position>4</Position>
+      <DataType>char(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="367" parent="242" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>categoryID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="368" parent="243" name="clientID">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="369" parent="243" name="clientName">
+      <Position>2</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="370" parent="243" name="clientType">
+      <Position>3</Position>
+      <DataType>enum(&apos;Buyer&apos;, &apos;Seller&apos;)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="371" parent="243" name="level">
+      <Position>4</Position>
+      <DataType>enum(&apos;C&apos;, &apos;B&apos;, &apos;A&apos;, &apos;S&apos;, &apos;VIP&apos;)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="372" parent="243" name="telNumber">
+      <Position>5</Position>
+      <DataType>char(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="373" parent="243" name="address">
+      <Position>6</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="374" parent="243" name="postCode">
+      <Position>7</Position>
+      <DataType>char(10)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="375" parent="243" name="column_9">
+      <Position>8</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="376" parent="243" name="emailAddress">
+      <Position>9</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="377" parent="243" name="toGetQuota">
+      <Position>10</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="378" parent="243" name="toGet">
+      <Position>11</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="379" parent="243" name="toPay">
+      <Position>12</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="380" parent="243" name="defaultSalesmanID">
+      <Position>13</Position>
+      <DataType>char(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="381" parent="243" name="defaultSalesmanName">
+      <Position>14</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="382" parent="243" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>clientID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="383" parent="244" name="clientID">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="384" parent="244" name="clientName">
+      <Position>2</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="385" parent="244" name="clientType">
+      <Position>3</Position>
+      <DataType>enum(&apos;Buyer&apos;, &apos;Seller&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="386" parent="244" name="level">
+      <Position>4</Position>
+      <DataType>enum(&apos;C&apos;, &apos;B&apos;, &apos;A&apos;, &apos;S&apos;, &apos;VIP&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="387" parent="244" name="telNumber">
+      <Position>5</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="388" parent="244" name="toGet">
+      <Position>6</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="389" parent="244" name="toPay">
+      <Position>7</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="390" parent="244" name="accountBookID">
+      <Position>8</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="391" parent="244" name="CLIENTMESSAGE_ACCOUNTBOOK_accountBookID_fk">
+      <ColNames>accountBookID</ColNames>
+    </index>
+    <key id="392" parent="244" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>clientID
+accountBookID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="393" parent="244" name="CLIENTMESSAGE_CLIENT_clientID_fk">
+      <ColNames>clientID</ColNames>
+      <RefSchemaName>erpnjudb</RefSchemaName>
+      <RefTableName>CLIENT</RefTableName>
+      <RefColNames>clientID</RefColNames>
+    </foreign-key>
+    <foreign-key id="394" parent="244" name="CLIENTMESSAGE_ACCOUNTBOOK_accountBookID_fk">
+      <ColNames>accountBookID</ColNames>
+      <RefSchemaName>erpnjudb</RefSchemaName>
+      <RefTableName>ACCOUNTBOOK</RefTableName>
+      <RefColNames>accountBookID</RefColNames>
+    </foreign-key>
+    <column id="395" parent="245" name="minValue">
+      <Position>1</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="396" parent="245" name="voucher">
+      <Position>2</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="397" parent="245" name="strategy_id">
+      <Position>3</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="398" parent="245" name="strategy_name">
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="399" parent="245" name="client_level">
+      <Position>5</Position>
+      <DataType>enum(&apos;C&apos;, &apos;B&apos;, &apos;A&apos;, &apos;S&apos;, &apos;VIP&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="400" parent="245" name="begin_date">
+      <Position>6</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="401" parent="245" name="end_date">
+      <Position>7</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="402" parent="245" name="strategyType">
+      <Position>8</Position>
+      <DataType>enum(&apos;Price_pack&apos;, &apos;Full_gift&apos;, &apos;Full_return&apos;, &apos;Buy_gift&apos;, &apos;Buy_return&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="403" parent="245" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>strategy_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="404" parent="246" name="goodsID">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="405" parent="246" name="giftNum">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="406" parent="246" name="strategy_id">
+      <Position>3</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="407" parent="246" name="FULLGIFTSTRATEGYGOODS_FULLGIFTSTRATEGY_strategy_id_fk">
+      <ColNames>strategy_id</ColNames>
+    </index>
+    <key id="408" parent="246" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>goodsID
+strategy_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="409" parent="246" name="FULLGIFTSTRATEGYGOODS_GOODS_goodsID_fk">
+      <ColNames>goodsID</ColNames>
+      <RefSchemaName>erpnjudb</RefSchemaName>
+      <RefTableName>GOODS</RefTableName>
+      <RefColNames>goodsID</RefColNames>
+    </foreign-key>
+    <foreign-key id="410" parent="246" name="FULLGIFTSTRATEGYGOODS_FULLGIFTSTRATEGY_strategy_id_fk">
+      <ColNames>strategy_id</ColNames>
+      <RefSchemaName>erpnjudb</RefSchemaName>
+      <RefTableName>FULLGIFTSTRATEGY</RefTableName>
+      <RefColNames>strategy_id</RefColNames>
+    </foreign-key>
+    <column id="411" parent="247" name="minValue">
+      <Position>1</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="412" parent="247" name="reducePrice">
+      <Position>2</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="413" parent="247" name="strategyType">
+      <Position>3</Position>
+      <DataType>enum(&apos;Price_pack&apos;, &apos;Full_gift&apos;, &apos;Full_return&apos;, &apos;Buy_gift&apos;, &apos;Buy_return&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="414" parent="247" name="strategy_name">
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="415" parent="247" name="strategy_id">
+      <Position>5</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="416" parent="247" name="client_level">
+      <Position>6</Position>
+      <DataType>enum(&apos;C&apos;, &apos;B&apos;, &apos;A&apos;, &apos;S&apos;, &apos;VIP&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="417" parent="247" name="begin_date">
+      <Position>7</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="418" parent="247" name="end_date">
+      <Position>8</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="419" parent="247" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>strategy_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="420" parent="248" name="formID">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="421" parent="248" name="formType">
+      <Position>2</Position>
+      <DataType>enum(&apos;AlarmForm&apos;, &apos;OverflowForm&apos;, &apos;GiftForm&apos;, &apos;LossForm&apos;, &apos;SaleReturnForm&apos;, &apos;PurchaseForm&apos;, &apos;PurReturnForm&apos;, &apos;ReceiptForm&apos;, &apos;PaycheckForm&apos;, &apos;CashForm&apos;, &apos;SaleForm&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="422" parent="248" name="operatorID">
+      <Position>3</Position>
+      <DataType>char(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="423" parent="248" name="operatorName">
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="424" parent="248" name="operatorType">
+      <Position>5</Position>
+      <DataType>char(10)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="425" parent="248" name="remark">
+      <Position>6</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="426" parent="248" name="formState">
+      <Position>7</Position>
+      <DataType>enum(&apos;Draft&apos;, &apos;Pending&apos;, &apos;Pass&apos;, &apos;Fail&apos;, &apos;Hide&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="427" parent="248" name="date">
+      <Position>8</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="428" parent="248" name="clientID">
+      <Position>9</Position>
+      <DataType>char(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="429" parent="248" name="clientName">
+      <Position>10</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="430" parent="248" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>formID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="431" parent="249" name="goodsID">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="432" parent="249" name="goodsName">
+      <Position>2</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="433" parent="249" name="num">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="434" parent="249" name="formID">
+      <Position>4</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="435" parent="249" name="GIFTGOODS_GIFT_formID_fk">
+      <ColNames>formID</ColNames>
+    </index>
+    <key id="436" parent="249" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>goodsID
+formID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="437" parent="249" name="GIFTGOODS_GOODS_goodsID_fk">
+      <ColNames>goodsID</ColNames>
+      <RefSchemaName>erpnjudb</RefSchemaName>
+      <RefTableName>GOODS</RefTableName>
+      <RefColNames>goodsID</RefColNames>
+    </foreign-key>
+    <foreign-key id="438" parent="249" name="GIFTGOODS_GIFT_formID_fk">
+      <ColNames>formID</ColNames>
+      <RefSchemaName>erpnjudb</RefSchemaName>
+      <RefTableName>GIFT</RefTableName>
+      <RefColNames>formID</RefColNames>
+    </foreign-key>
+    <column id="439" parent="250" name="goodsID">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="440" parent="250" name="goodsName">
+      <Position>2</Position>
+      <DataType>tinytext|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="441" parent="250" name="goodsType">
+      <Position>3</Position>
+      <DataType>char(10)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="442" parent="250" name="categoryID">
+      <Position>4</Position>
+      <DataType>char(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="443" parent="250" name="quantityInStock">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="444" parent="250" name="sellingPrice">
+      <Position>6</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="445" parent="250" name="purchasePrice">
+      <Position>7</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="446" parent="250" name="recent_sellingPrice">
+      <Position>8</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="447" parent="250" name="recent_purchasePrice">
+      <Position>9</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="448" parent="250" name="alarmLine">
+      <Position>10</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="449" parent="250" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>goodsID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="450" parent="251" name="goodsID">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="451" parent="251" name="goodsName">
+      <Position>2</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="452" parent="251" name="goodsType">
+      <Position>3</Position>
+      <DataType>char(10)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="453" parent="251" name="categoryName">
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="454" parent="251" name="quantityInStock">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="455" parent="251" name="purchasePrice">
+      <Position>6</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="456" parent="251" name="sellingPrice">
+      <Position>7</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="457" parent="251" name="accountBookID">
+      <Position>8</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="458" parent="251" name="GOODSMESSAGE_ACCOUNTBOOK_accountBookID_fk">
+      <ColNames>accountBookID</ColNames>
+    </index>
+    <key id="459" parent="251" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>goodsID
+accountBookID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="460" parent="251" name="GOODSMESSAGE_GOODS_goodsID_fk">
+      <ColNames>goodsID</ColNames>
+      <RefSchemaName>erpnjudb</RefSchemaName>
+      <RefTableName>GOODS</RefTableName>
+      <RefColNames>goodsID</RefColNames>
+    </foreign-key>
+    <foreign-key id="461" parent="251" name="GOODSMESSAGE_ACCOUNTBOOK_accountBookID_fk">
+      <ColNames>accountBookID</ColNames>
+      <RefSchemaName>erpnjudb</RefSchemaName>
+      <RefTableName>ACCOUNTBOOK</RefTableName>
+      <RefColNames>accountBookID</RefColNames>
+    </foreign-key>
+    <column id="462" parent="252" name="logID">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="463" parent="252" name="operatorID">
+      <Position>2</Position>
+      <DataType>char(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="464" parent="252" name="operatingTime">
+      <Position>3</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="465" parent="252" name="operationType">
+      <Position>4</Position>
+      <DataType>enum(&apos;create_form&apos;, &apos;delete_form&apos;, &apos;modify_form&apos;, &apos;approve_form&apos;, &apos;redDash_form&apos;, &apos;add_user&apos;, &apos;delete_ueser&apos;, &apos;add_client&apos;, &apos;modify_client&apos;, &apos;delete_client&apos;, &apos;add_account&apos;, &apos;delete_account&apos;, &apos;modify_account&apos;, &apos;add_goods&apos;, &apos;delete_goods&apos;, &apos;modify_goods&apos;, &apos;add_category&apos;, &apos;delete_category&apos;, &apos;modify_category&apos;, &apos;create_strategy&apos;, &apos;modify_strategy&apos;, &apos;delete_strategy&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="466" parent="252" name="objectID">
+      <Position>5</Position>
+      <DataType>char(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="467" parent="252" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>logID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="468" parent="253" name="formID">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="469" parent="253" name="formType">
+      <Position>2</Position>
+      <DataType>enum(&apos;AlarmForm&apos;, &apos;OverflowForm&apos;, &apos;GiftForm&apos;, &apos;LossForm&apos;, &apos;SaleReturnForm&apos;, &apos;PurchaseForm&apos;, &apos;PurReturnForm&apos;, &apos;ReceiptForm&apos;, &apos;PaycheckForm&apos;, &apos;CashForm&apos;, &apos;SaleForm&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="470" parent="253" name="operatorID">
+      <Position>3</Position>
+      <DataType>char(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="471" parent="253" name="operatorName">
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="472" parent="253" name="remark">
+      <Position>5</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="473" parent="253" name="formState">
+      <Position>6</Position>
+      <DataType>enum(&apos;Draft&apos;, &apos;Pending&apos;, &apos;Pass&apos;, &apos;Fail&apos;, &apos;Hide&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="474" parent="253" name="date">
+      <Position>7</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="475" parent="253" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>formID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="476" parent="254" name="goodsID">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="477" parent="254" name="goodsName">
+      <Position>2</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="478" parent="254" name="stockNum">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="479" parent="254" name="actualNum">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="480" parent="254" name="changeNum">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="481" parent="254" name="formID">
+      <Position>6</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="482" parent="254" name="LOSSGOODS_LOSS_formID_fk">
+      <ColNames>formID</ColNames>
+    </index>
+    <key id="483" parent="254" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>goodsID
+formID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="484" parent="254" name="LOSSGOODS_GOODS_goodsID_fk">
+      <ColNames>goodsID</ColNames>
+      <RefSchemaName>erpnjudb</RefSchemaName>
+      <RefTableName>GOODS</RefTableName>
+      <RefColNames>goodsID</RefColNames>
+    </foreign-key>
+    <foreign-key id="485" parent="254" name="LOSSGOODS_LOSS_formID_fk">
+      <ColNames>formID</ColNames>
+      <RefSchemaName>erpnjudb</RefSchemaName>
+      <RefTableName>LOSS</RefTableName>
+      <RefColNames>formID</RefColNames>
+    </foreign-key>
+    <column id="486" parent="255" name="messageID">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="487" parent="255" name="messageText">
+      <Position>2</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="488" parent="255" name="targetUser">
+      <Position>3</Position>
+      <DataType>enum(&apos;Inventory_Manager&apos;, &apos;Salesman&apos;, &apos;Sales_Manager&apos;, &apos;Accountant&apos;, &apos;General_Manager&apos;, &apos;Administrator&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="489" parent="255" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>messageID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="490" parent="256" name="formID">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="491" parent="256" name="formType">
+      <Position>2</Position>
+      <DataType>enum(&apos;AlarmForm&apos;, &apos;OverflowForm&apos;, &apos;GiftForm&apos;, &apos;LossForm&apos;, &apos;SaleReturnForm&apos;, &apos;PurchaseForm&apos;, &apos;PurReturnForm&apos;, &apos;ReceiptForm&apos;, &apos;PaycheckForm&apos;, &apos;CashForm&apos;, &apos;SaleForm&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="492" parent="256" name="operatorID">
+      <Position>3</Position>
+      <DataType>char(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="493" parent="256" name="operatorName">
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="494" parent="256" name="remark">
+      <Position>5</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="495" parent="256" name="formState">
+      <Position>6</Position>
+      <DataType>enum(&apos;Draft&apos;, &apos;Pending&apos;, &apos;Pass&apos;, &apos;Fail&apos;, &apos;Hide&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="496" parent="256" name="date">
+      <Position>7</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="497" parent="256" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>formID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="498" parent="257" name="goodsID">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="499" parent="257" name="goodsName">
+      <Position>2</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="500" parent="257" name="stockNum">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="501" parent="257" name="actualNum">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="502" parent="257" name="changeNum">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="503" parent="257" name="formID">
+      <Position>6</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="504" parent="257" name="OVERFLOWGOODS_OVERFLOW_formID_fk">
+      <ColNames>formID</ColNames>
+    </index>
+    <key id="505" parent="257" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>goodsID
+formID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="506" parent="257" name="OVERFLOWGOODS_GOODS_goodsID_fk">
+      <ColNames>goodsID</ColNames>
+      <RefSchemaName>erpnjudb</RefSchemaName>
+      <RefTableName>GOODS</RefTableName>
+      <RefColNames>goodsID</RefColNames>
+    </foreign-key>
+    <foreign-key id="507" parent="257" name="OVERFLOWGOODS_OVERFLOW_formID_fk">
+      <ColNames>formID</ColNames>
+      <RefSchemaName>erpnjudb</RefSchemaName>
+      <RefTableName>OVERFLOW</RefTableName>
+      <RefColNames>formID</RefColNames>
+    </foreign-key>
+    <column id="508" parent="258" name="formID">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="509" parent="258" name="formType">
+      <Position>2</Position>
+      <DataType>enum(&apos;AlarmForm&apos;, &apos;OverflowForm&apos;, &apos;GiftForm&apos;, &apos;LossForm&apos;, &apos;SaleReturnForm&apos;, &apos;PurchaseForm&apos;, &apos;PurReturnForm&apos;, &apos;ReceiptForm&apos;, &apos;PaycheckForm&apos;, &apos;CashForm&apos;, &apos;SaleForm&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="510" parent="258" name="operatorID">
+      <Position>3</Position>
+      <DataType>char(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="511" parent="258" name="operatorName">
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="512" parent="258" name="remark">
+      <Position>5</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="513" parent="258" name="formState">
+      <Position>6</Position>
+      <DataType>enum(&apos;Draft&apos;, &apos;Pending&apos;, &apos;Pass&apos;, &apos;Fail&apos;, &apos;Hide&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="514" parent="258" name="clientID">
+      <Position>7</Position>
+      <DataType>char(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="515" parent="258" name="totalAmount">
+      <Position>8</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="516" parent="258" name="date">
+      <Position>9</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="517" parent="258" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>formID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="518" parent="259" name="formID">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="519" parent="259" name="accountID">
+      <Position>2</Position>
+      <DataType>char(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="520" parent="259" name="amount">
+      <Position>3</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="521" parent="259" name="remark">
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="522" parent="259" name="itemID">
+      <Position>5</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="523" parent="259" name="PAYCHECKITEM_PAYCHECK_formID_fk">
+      <ColNames>formID</ColNames>
+    </index>
+    <key id="524" parent="259" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>itemID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="525" parent="259" name="PAYCHECKITEM_PAYCHECK_formID_fk">
+      <ColNames>formID</ColNames>
+      <RefSchemaName>erpnjudb</RefSchemaName>
+      <RefTableName>PAYCHECK</RefTableName>
+      <RefColNames>formID</RefColNames>
+    </foreign-key>
+    <column id="526" parent="260" name="strategy_id">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="527" parent="260" name="strategy_name">
+      <Position>2</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="528" parent="260" name="client_level">
+      <Position>3</Position>
+      <DataType>enum(&apos;C&apos;, &apos;B&apos;, &apos;A&apos;, &apos;S&apos;, &apos;VIP&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="529" parent="260" name="begin_date">
+      <Position>4</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="530" parent="260" name="end_date">
+      <Position>5</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="531" parent="260" name="discount">
+      <Position>6</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="532" parent="260" name="strategyType">
+      <Position>7</Position>
+      <DataType>enum(&apos;Price_pack&apos;, &apos;Full_gift&apos;, &apos;Full_return&apos;, &apos;Buy_gift&apos;, &apos;Buy_return&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="533" parent="260" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>strategy_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="534" parent="261" name="goodsID">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="535" parent="261" name="strategy_id">
+      <Position>2</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="536" parent="261" name="PRICEPACKSTRATEGYGOODS_PRICEPACKSTRATEGY_strategy_id_fk">
+      <ColNames>strategy_id</ColNames>
+    </index>
+    <key id="537" parent="261" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>goodsID
+strategy_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="538" parent="261" name="PRICEPACKSTRATEGYGOODS_GOODS_goodsID_fk">
+      <ColNames>goodsID</ColNames>
+      <RefSchemaName>erpnjudb</RefSchemaName>
+      <RefTableName>GOODS</RefTableName>
+      <RefColNames>goodsID</RefColNames>
+    </foreign-key>
+    <foreign-key id="539" parent="261" name="PRICEPACKSTRATEGYGOODS_PRICEPACKSTRATEGY_strategy_id_fk">
+      <ColNames>strategy_id</ColNames>
+      <RefSchemaName>erpnjudb</RefSchemaName>
+      <RefTableName>PRICEPACKSTRATEGY</RefTableName>
+      <RefColNames>strategy_id</RefColNames>
+    </foreign-key>
+    <column id="540" parent="262" name="formID">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="541" parent="262" name="formType">
+      <Position>2</Position>
+      <DataType>enum(&apos;AlarmForm&apos;, &apos;OverflowForm&apos;, &apos;GiftForm&apos;, &apos;LossForm&apos;, &apos;SaleReturnForm&apos;, &apos;PurchaseForm&apos;, &apos;PurReturnForm&apos;, &apos;ReceiptForm&apos;, &apos;PaycheckForm&apos;, &apos;CashForm&apos;, &apos;SaleForm&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="542" parent="262" name="operatorID">
+      <Position>3</Position>
+      <DataType>char(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="543" parent="262" name="operatorName">
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="544" parent="262" name="remark">
+      <Position>5</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="545" parent="262" name="formState">
+      <Position>6</Position>
+      <DataType>enum(&apos;Draft&apos;, &apos;Pending&apos;, &apos;Fail&apos;, &apos;Pass&apos;, &apos;Hide&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="546" parent="262" name="supplierID">
+      <Position>7</Position>
+      <DataType>char(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="547" parent="262" name="totalValue">
+      <Position>8</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="548" parent="262" name="date">
+      <Position>9</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="549" parent="262" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>formID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="550" parent="263" name="goodsID">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="551" parent="263" name="num">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="552" parent="263" name="formID">
+      <Position>3</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="553" parent="263" name="remark">
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="554" parent="263" name="price">
+      <Position>5</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="555" parent="263" name="PURCHASEGOODS_PURCHASE_formID_fk">
+      <ColNames>formID</ColNames>
+    </index>
+    <key id="556" parent="263" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>goodsID
+formID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="557" parent="263" name="PURCHASEGOODS_GOODS_goodsID_fk">
+      <ColNames>goodsID</ColNames>
+      <RefSchemaName>erpnjudb</RefSchemaName>
+      <RefTableName>GOODS</RefTableName>
+      <RefColNames>goodsID</RefColNames>
+    </foreign-key>
+    <foreign-key id="558" parent="263" name="PURCHASEGOODS_PURCHASE_formID_fk">
+      <ColNames>formID</ColNames>
+      <RefSchemaName>erpnjudb</RefSchemaName>
+      <RefTableName>PURCHASE</RefTableName>
+      <RefColNames>formID</RefColNames>
+    </foreign-key>
+    <column id="559" parent="264" name="formID">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="560" parent="264" name="formType">
+      <Position>2</Position>
+      <DataType>enum(&apos;AlarmForm&apos;, &apos;OverflowForm&apos;, &apos;GiftForm&apos;, &apos;LossForm&apos;, &apos;SaleReturnForm&apos;, &apos;PurchaseForm&apos;, &apos;PurReturnForm&apos;, &apos;ReceiptForm&apos;, &apos;PaycheckForm&apos;, &apos;CashForm&apos;, &apos;SaleForm&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="561" parent="264" name="operatorID">
+      <Position>3</Position>
+      <DataType>char(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="562" parent="264" name="operatorName">
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="563" parent="264" name="remark">
+      <Position>5</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="564" parent="264" name="formState">
+      <Position>6</Position>
+      <DataType>enum(&apos;Draft&apos;, &apos;Pending&apos;, &apos;Pass&apos;, &apos;Fail&apos;, &apos;Hide&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="565" parent="264" name="supplierID">
+      <Position>7</Position>
+      <DataType>char(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="566" parent="264" name="totalValue">
+      <Position>8</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="567" parent="264" name="date">
+      <Position>9</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="568" parent="264" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>formID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="569" parent="265" name="goodsID">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="570" parent="265" name="num">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="571" parent="265" name="remark">
+      <Position>3</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="572" parent="265" name="formID">
+      <Position>4</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="573" parent="265" name="price">
+      <Position>5</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="574" parent="265" name="PURRETURNGOODS_PURRETURN_formID_fk">
+      <ColNames>formID</ColNames>
+    </index>
+    <key id="575" parent="265" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>goodsID
+formID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="576" parent="265" name="PURRETURNGOODS_GOODS_goodsID_fk">
+      <ColNames>goodsID</ColNames>
+      <RefSchemaName>erpnjudb</RefSchemaName>
+      <RefTableName>GOODS</RefTableName>
+      <RefColNames>goodsID</RefColNames>
+    </foreign-key>
+    <foreign-key id="577" parent="265" name="PURRETURNGOODS_PURRETURN_formID_fk">
+      <ColNames>formID</ColNames>
+      <RefSchemaName>erpnjudb</RefSchemaName>
+      <RefTableName>PURRETURN</RefTableName>
+      <RefColNames>formID</RefColNames>
+    </foreign-key>
+    <column id="578" parent="266" name="formID">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="579" parent="266" name="formType">
+      <Position>2</Position>
+      <DataType>enum(&apos;AlarmForm&apos;, &apos;OverflowForm&apos;, &apos;GiftForm&apos;, &apos;LossForm&apos;, &apos;SaleReturnForm&apos;, &apos;PurchaseForm&apos;, &apos;PurReturnForm&apos;, &apos;ReceiptForm&apos;, &apos;PaycheckForm&apos;, &apos;CashForm&apos;, &apos;SaleForm&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="580" parent="266" name="operatorID">
+      <Position>3</Position>
+      <DataType>char(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="581" parent="266" name="operatorName">
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="582" parent="266" name="remark">
+      <Position>5</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="583" parent="266" name="formState">
+      <Position>6</Position>
+      <DataType>enum(&apos;Draft&apos;, &apos;Pending&apos;, &apos;Pass&apos;, &apos;Fail&apos;, &apos;Hide&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="584" parent="266" name="clientID">
+      <Position>7</Position>
+      <DataType>char(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="585" parent="266" name="totalAmount">
+      <Position>8</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="586" parent="266" name="date">
+      <Position>9</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="587" parent="266" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>formID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="588" parent="267" name="formID">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="589" parent="267" name="accountID">
+      <Position>2</Position>
+      <DataType>char(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="590" parent="267" name="amount">
+      <Position>3</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="591" parent="267" name="remark">
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="592" parent="267" name="itemID">
+      <Position>5</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="593" parent="267" name="RECEIPTITEM_RECEIPT_formID_fk">
+      <ColNames>formID</ColNames>
+    </index>
+    <key id="594" parent="267" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>itemID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="595" parent="267" name="RECEIPTITEM_RECEIPT_formID_fk">
+      <ColNames>formID</ColNames>
+      <RefSchemaName>erpnjudb</RefSchemaName>
+      <RefTableName>RECEIPT</RefTableName>
+      <RefColNames>formID</RefColNames>
+    </foreign-key>
+    <column id="596" parent="268" name="formID">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="597" parent="268" name="formType">
+      <Position>2</Position>
+      <DataType>enum(&apos;AlarmForm&apos;, &apos;OverflowForm&apos;, &apos;GiftForm&apos;, &apos;LossForm&apos;, &apos;SaleReturnForm&apos;, &apos;PurchaseForm&apos;, &apos;PurReturnForm&apos;, &apos;ReceiptForm&apos;, &apos;PaycheckForm&apos;, &apos;CashForm&apos;, &apos;SaleForm&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="598" parent="268" name="operatorID">
+      <Position>3</Position>
+      <DataType>char(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="599" parent="268" name="operatorName">
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="600" parent="268" name="remark">
+      <Position>5</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="601" parent="268" name="formState">
+      <Position>6</Position>
+      <DataType>enum(&apos;Draft&apos;, &apos;Pending&apos;, &apos;Pass&apos;, &apos;Fail&apos;, &apos;Hide&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="602" parent="268" name="buyerID">
+      <Position>7</Position>
+      <DataType>char(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="603" parent="268" name="totalAmountBeforeDiscount">
+      <Position>8</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="604" parent="268" name="discount">
+      <Position>9</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="605" parent="268" name="voucherValue">
+      <Position>10</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="606" parent="268" name="totalAmountAfterDiscount">
+      <Position>11</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="607" parent="268" name="date">
+      <Position>12</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="608" parent="268" name="salesman">
+      <Position>13</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="609" parent="268" name="strategyList">
+      <Position>14</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="610" parent="268" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>formID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="611" parent="269" name="goodsID">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="612" parent="269" name="formID">
+      <Position>2</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="613" parent="269" name="num">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="614" parent="269" name="salePrice">
+      <Position>4</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="615" parent="269" name="remark">
+      <Position>5</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="616" parent="269" name="SALEGOODS_SALE_formID_fk">
+      <ColNames>formID</ColNames>
+    </index>
+    <key id="617" parent="269" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>goodsID
+formID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="618" parent="269" name="SALEGOODS_GOODS_goodsID_fk">
+      <ColNames>goodsID</ColNames>
+      <RefSchemaName>erpnjudb</RefSchemaName>
+      <RefTableName>GOODS</RefTableName>
+      <RefColNames>goodsID</RefColNames>
+    </foreign-key>
+    <foreign-key id="619" parent="269" name="SALEGOODS_SALE_formID_fk">
+      <ColNames>formID</ColNames>
+      <RefSchemaName>erpnjudb</RefSchemaName>
+      <RefTableName>SALE</RefTableName>
+      <RefColNames>formID</RefColNames>
+    </foreign-key>
+    <column id="620" parent="270" name="formID">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="621" parent="270" name="formType">
+      <Position>2</Position>
+      <DataType>enum(&apos;AlarmForm&apos;, &apos;OverflowForm&apos;, &apos;GiftForm&apos;, &apos;LossForm&apos;, &apos;SaleReturnForm&apos;, &apos;PurchaseForm&apos;, &apos;PurReturnForm&apos;, &apos;ReceiptForm&apos;, &apos;PaycheckForm&apos;, &apos;CashForm&apos;, &apos;SaleForm&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="622" parent="270" name="operatorID">
+      <Position>3</Position>
+      <DataType>char(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="623" parent="270" name="operatorName">
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="624" parent="270" name="remark">
+      <Position>5</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="625" parent="270" name="formState">
+      <Position>6</Position>
+      <DataType>enum(&apos;Draft&apos;, &apos;Pending&apos;, &apos;Pass&apos;, &apos;Fail&apos;, &apos;Hide&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="626" parent="270" name="buyerID">
+      <Position>7</Position>
+      <DataType>char(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="627" parent="270" name="totalValue">
+      <Position>8</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="628" parent="270" name="date">
+      <Position>9</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="629" parent="270" name="salesman">
+      <Position>10</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="630" parent="270" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>formID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="631" parent="271" name="goodsID">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="632" parent="271" name="num">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="633" parent="271" name="price">
+      <Position>3</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="634" parent="271" name="remark">
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="635" parent="271" name="formID">
+      <Position>5</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="636" parent="271" name="SALERETURNGOODS_SALERETURN_formID_fk">
+      <ColNames>formID</ColNames>
+    </index>
+    <key id="637" parent="271" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>goodsID
+formID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="638" parent="271" name="SALERETURNGOODS_GOODS_goodsID_fk">
+      <ColNames>goodsID</ColNames>
+      <RefSchemaName>erpnjudb</RefSchemaName>
+      <RefTableName>GOODS</RefTableName>
+      <RefColNames>goodsID</RefColNames>
+    </foreign-key>
+    <foreign-key id="639" parent="271" name="SALERETURNGOODS_SALERETURN_formID_fk">
+      <ColNames>formID</ColNames>
+      <RefSchemaName>erpnjudb</RefSchemaName>
+      <RefTableName>SALERETURN</RefTableName>
+      <RefColNames>formID</RefColNames>
+    </foreign-key>
+    <column id="640" parent="272" name="strategy_id">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="641" parent="272" name="strategyType">
+      <Position>2</Position>
+      <DataType>enum(&apos;Special_offer&apos;, &apos;Full_gift&apos;, &apos;Full_discount&apos;, &apos;Buy_gift&apos;, &apos;Buy_discount&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="642" parent="272" name="strategy_name">
+      <Position>3</Position>
+      <DataType>text|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="643" parent="272" name="client_level">
+      <Position>4</Position>
+      <DataType>enum(&apos;C&apos;, &apos;B&apos;, &apos;A&apos;, &apos;S&apos;, &apos;VIP&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="644" parent="272" name="price">
+      <Position>5</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="645" parent="272" name="discount">
+      <Position>6</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="646" parent="272" name="begin_date">
+      <Position>7</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="647" parent="272" name="end_date">
+      <Position>8</Position>
+      <DataType>date|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="648" parent="272" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>strategy_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="649" parent="273" name="userID">
+      <Position>1</Position>
+      <DataType>char(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="650" parent="273" name="userType">
+      <Position>2</Position>
+      <DataType>enum(&apos;Inventory_Manager&apos;, &apos;Salesman&apos;, &apos;Sales_Manager&apos;, &apos;Accountant&apos;, &apos;General_Manager&apos;, &apos;Administrator&apos;)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="651" parent="273" name="userName">
+      <Position>3</Position>
+      <DataType>char(10)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="652" parent="273" name="password">
+      <Position>4</Position>
+      <DataType>char(15)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="653" parent="273" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>userID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="654" parent="274" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="655" parent="274" name="amount">
+      <Position>2</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="656" parent="274" name="bank">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="657" parent="274" name="holder">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="658" parent="274" name="purpose">
+      <Position>5</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="659" parent="274" name="remarks">
+      <Position>6</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="660" parent="274" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="661" parent="275" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="662" parent="275" name="fatherCategoryID">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="663" parent="275" name="isLeaf">
+      <Position>3</Position>
+      <DataType>bit(1)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="664" parent="275" name="name">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="665" parent="275" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="666" parent="276" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="667" parent="276" name="address">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="668" parent="276" name="level">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="669" parent="276" name="clientType">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="670" parent="276" name="defaultSalesmanID">
+      <Position>5</Position>
+      <DataType>bigint(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="671" parent="276" name="defaultSalesmanName">
+      <Position>6</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="672" parent="276" name="emailAddress">
+      <Position>7</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="673" parent="276" name="name">
+      <Position>8</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="674" parent="276" name="postcode">
+      <Position>9</Position>
+      <DataType>bigint(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="675" parent="276" name="telNumber">
+      <Position>10</Position>
+      <DataType>bigint(20)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="676" parent="276" name="toGet">
+      <Position>11</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="677" parent="276" name="toPay">
+      <Position>12</Position>
+      <DataType>double|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="678" parent="276" name="clientName">
+      <Position>13</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="679" parent="276" name="clientLevel">
+      <Position>14</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="680" parent="276" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="681" parent="277" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="682" parent="277" name="goodsID">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="683" parent="277" name="goodsName">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="684" parent="277" name="goodsType">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="685" parent="277" name="rid">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="686" parent="277" name="FK92mewv4ea0nc3tocnqx4h0h5o">
+      <ColNames>rid</ColNames>
+    </index>
+    <key id="687" parent="277" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
